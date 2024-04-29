@@ -1,0 +1,1277 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local OmegaZ = Instance.new("ScreenGui")
+local Tabs = Instance.new("Frame")
+local AboutUsPage = Instance.new("Frame")
+local AboutUsPage_2 = Instance.new("ImageLabel")
+local ExecutorPage = Instance.new("Frame")
+local CLExec = Instance.new("Frame")
+local ExecuteButton = Instance.new("ImageButton")
+local ExecutorPage_2 = Instance.new("ImageLabel")
+local CloseButton = Instance.new("TextButton")
+local TextBox = Instance.new("TextBox")
+local SDExec = Instance.new("Frame")
+local ExecutorPage_3 = Instance.new("ImageLabel")
+local ExecuteButton_2 = Instance.new("ImageButton")
+local TextBox_2 = Instance.new("TextBox")
+local CloseButton_2 = Instance.new("TextButton")
+local ButtonsExec = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local SDButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local CLButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local HomePage = Instance.new("Frame")
+local HomePage_2 = Instance.new("ImageLabel")
+local Information = Instance.new("Frame")
+local InfoButton = Instance.new("ImageButton")
+local infoFrame = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local InfoCButton = Instance.new("ImageButton")
+local ScriptHubPage = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local flingtool = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local bloxfruits1 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local Zekrom = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local redz = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local UIGradient_4 = Instance.new("UIGradient")
+local Arsenal = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local UIGradient_5 = Instance.new("UIGradient")
+local Evade = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local UIGradient_6 = Instance.new("UIGradient")
+local MoonUi = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local UIGradient_7 = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_11 = Instance.new("UICorner")
+local ScriptSearcherPage = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local Fly = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local UIGradient_8 = Instance.new("UIGradient")
+local Shiftlock = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local UIGradient_9 = Instance.new("UIGradient")
+local Keyboard = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local UIGradient_10 = Instance.new("UIGradient")
+local Dex = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local UIGradient_11 = Instance.new("UIGradient")
+local InfiniteYield = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local UIGradient_12 = Instance.new("UIGradient")
+local Btools = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local UIGradient_13 = Instance.new("UIGradient")
+local ESP = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local UIGradient_14 = Instance.new("UIGradient")
+local Aimbot = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local UIGradient_15 = Instance.new("UIGradient")
+local omegazButton = Instance.new("ImageButton")
+local secretFrame = Instance.new("Frame")
+local UICorner_20 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local cButton = Instance.new("ImageButton")
+local AboutUs = Instance.new("ImageButton")
+local Executor = Instance.new("ImageButton")
+local Home = Instance.new("ImageButton")
+local ScriptHub = Instance.new("ImageButton")
+local ScriptSearcher = Instance.new("ImageButton")
+local UI = Instance.new("ImageLabel")
+local CloseButton_3 = Instance.new("ImageButton")
+local OpenButton1 = Instance.new("Frame")
+local UICorner_21 = Instance.new("UICorner")
+local OpenButton = Instance.new("ImageButton")
+local intro = Instance.new("TextLabel")
+
+--Properties:
+
+OmegaZ.Name = "OmegaZ"
+OmegaZ.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+OmegaZ.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Tabs.Name = "Tabs"
+Tabs.Parent = OmegaZ
+Tabs.Active = true
+Tabs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tabs.BackgroundTransparency = 1.000
+Tabs.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Tabs.BorderSizePixel = 0
+Tabs.Position = UDim2.new(0.273999989, 0, 0.200000003, 0)
+Tabs.Size = UDim2.new(0, 342, 0, 235)
+Tabs.Visible = false
+
+AboutUsPage.Name = "AboutUsPage"
+AboutUsPage.Parent = Tabs
+AboutUsPage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AboutUsPage.BackgroundTransparency = 1.000
+AboutUsPage.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AboutUsPage.BorderSizePixel = 0
+AboutUsPage.Position = UDim2.new(0.187552199, 0, 0.199448735, 0)
+AboutUsPage.Size = UDim2.new(0, 258, 0, 171)
+AboutUsPage.Visible = false
+
+AboutUsPage_2.Name = "AboutUsPage"
+AboutUsPage_2.Parent = AboutUsPage
+AboutUsPage_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AboutUsPage_2.BackgroundTransparency = 1.000
+AboutUsPage_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AboutUsPage_2.BorderSizePixel = 0
+AboutUsPage_2.Position = UDim2.new(-0.038266439, 0, -0.309266657, 0)
+AboutUsPage_2.Size = UDim2.new(0, 267, 0, 267)
+AboutUsPage_2.Image = "rbxassetid://16467326440"
+
+ExecutorPage.Name = "ExecutorPage"
+ExecutorPage.Parent = Tabs
+ExecutorPage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ExecutorPage.BackgroundTransparency = 1.000
+ExecutorPage.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ExecutorPage.BorderSizePixel = 0
+ExecutorPage.Position = UDim2.new(0.187552199, 0, 0.199448735, 0)
+ExecutorPage.Size = UDim2.new(0, 258, 0, 171)
+ExecutorPage.Visible = false
+
+CLExec.Name = "CLExec"
+CLExec.Parent = ExecutorPage
+CLExec.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CLExec.BackgroundTransparency = 1.000
+CLExec.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CLExec.BorderSizePixel = 0
+CLExec.Position = UDim2.new(0.0271317828, 0, -0.0350877196, 0)
+CLExec.Size = UDim2.new(0, 253, 0, 184)
+CLExec.Visible = false
+
+ExecuteButton.Name = "ExecuteButton"
+ExecuteButton.Parent = CLExec
+ExecuteButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ExecuteButton.BackgroundTransparency = 1.000
+ExecuteButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ExecuteButton.BorderSizePixel = 0
+ExecuteButton.Position = UDim2.new(0.601000011, 0, 0.529999971, 0)
+ExecuteButton.Size = UDim2.new(0, 127, 0, 127)
+ExecuteButton.Image = "rbxassetid://16467867845"
+
+ExecutorPage_2.Name = "ExecutorPage"
+ExecutorPage_2.Parent = CLExec
+ExecutorPage_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ExecutorPage_2.BackgroundTransparency = 1.000
+ExecutorPage_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ExecutorPage_2.BorderSizePixel = 0
+ExecutorPage_2.Position = UDim2.new(-0.229668051, 0, -0.585652053, 0)
+ExecutorPage_2.Size = UDim2.new(0, 356, 0, 356)
+ExecutorPage_2.Image = "rbxassetid://16467854051"
+
+CloseButton.Name = "CloseButton"
+CloseButton.Parent = CLExec
+CloseButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseButton.BackgroundTransparency = 1.000
+CloseButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CloseButton.BorderSizePixel = 0
+CloseButton.Position = UDim2.new(-0.276679844, 0, 0.739130437, 0)
+CloseButton.Size = UDim2.new(0, 200, 0, 50)
+CloseButton.Font = Enum.Font.FredokaOne
+CloseButton.Text = "Close"
+CloseButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseButton.TextSize = 14.000
+
+TextBox.Parent = CLExec
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BackgroundTransparency = 1.000
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.0658911169, 0, 2.67698056e-07, 0)
+TextBox.Size = UDim2.new(0, 228, 0, 132)
+TextBox.Font = Enum.Font.ArialBold
+TextBox.MultiLine = true
+TextBox.PlaceholderText = "Put your SCRIPT here"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 14.000
+
+SDExec.Name = "SDExec"
+SDExec.Parent = ExecutorPage
+SDExec.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SDExec.BackgroundTransparency = 1.000
+SDExec.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SDExec.BorderSizePixel = 0
+SDExec.Position = UDim2.new(0, 0, -0.0350877196, 0)
+SDExec.Size = UDim2.new(0, 266, 0, 183)
+SDExec.Visible = false
+
+ExecutorPage_3.Name = "ExecutorPage"
+ExecutorPage_3.Parent = SDExec
+ExecutorPage_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ExecutorPage_3.BackgroundTransparency = 1.000
+ExecutorPage_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ExecutorPage_3.BorderSizePixel = 0
+ExecutorPage_3.Position = UDim2.new(-0.203352168, 0, -0.591116488, 0)
+ExecutorPage_3.Size = UDim2.new(0, 356, 0, 356)
+ExecutorPage_3.Image = "rbxassetid://16467854051"
+
+ExecuteButton_2.Name = "ExecuteButton"
+ExecuteButton_2.Parent = SDExec
+ExecuteButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ExecuteButton_2.BackgroundTransparency = 1.000
+ExecuteButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ExecuteButton_2.BorderSizePixel = 0
+ExecuteButton_2.Position = UDim2.new(0.601000011, 0, 0.529999971, 0)
+ExecuteButton_2.Size = UDim2.new(0, 127, 0, 127)
+ExecuteButton_2.Image = "rbxassetid://16467867845"
+
+TextBox_2.Parent = SDExec
+TextBox_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.BackgroundTransparency = 1.000
+TextBox_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_2.BorderSizePixel = 0
+TextBox_2.Position = UDim2.new(0.0658911169, 0, 2.67698056e-07, 0)
+TextBox_2.Size = UDim2.new(0, 228, 0, 132)
+TextBox_2.Font = Enum.Font.ArialBold
+TextBox_2.MultiLine = true
+TextBox_2.PlaceholderText = "Put your Server Sided SCRIPT here"
+TextBox_2.Text = ""
+TextBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.TextSize = 14.000
+
+CloseButton_2.Name = "CloseButton"
+CloseButton_2.Parent = SDExec
+CloseButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseButton_2.BackgroundTransparency = 1.000
+CloseButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CloseButton_2.BorderSizePixel = 0
+CloseButton_2.Position = UDim2.new(-0.276679844, 0, 0.739130437, 0)
+CloseButton_2.Size = UDim2.new(0, 200, 0, 50)
+CloseButton_2.Font = Enum.Font.FredokaOne
+CloseButton_2.Text = "Close"
+CloseButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseButton_2.TextSize = 14.000
+
+ButtonsExec.Name = "ButtonsExec"
+ButtonsExec.Parent = ExecutorPage
+ButtonsExec.BackgroundColor3 = Color3.fromRGB(62, 68, 0)
+ButtonsExec.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ButtonsExec.BorderSizePixel = 0
+ButtonsExec.Size = UDim2.new(0, 253, 0, 170)
+
+UICorner.Parent = ButtonsExec
+
+SDButton.Name = "SDButton"
+SDButton.Parent = ButtonsExec
+SDButton.BackgroundColor3 = Color3.fromRGB(18, 7, 106)
+SDButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SDButton.BorderSizePixel = 0
+SDButton.Position = UDim2.new(0.0790513828, 0, 0.276470602, 0)
+SDButton.Size = UDim2.new(0, 92, 0, 85)
+SDButton.Font = Enum.Font.FredokaOne
+SDButton.Text = "Server Sided Executor"
+SDButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+SDButton.TextSize = 14.000
+SDButton.TextWrapped = true
+
+UICorner_2.Parent = SDButton
+
+CLButton.Name = "CLButton"
+CLButton.Parent = ButtonsExec
+CLButton.BackgroundColor3 = Color3.fromRGB(18, 7, 106)
+CLButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CLButton.BorderSizePixel = 0
+CLButton.Position = UDim2.new(0.55731225, 0, 0.276470602, 0)
+CLButton.Size = UDim2.new(0, 92, 0, 85)
+CLButton.Font = Enum.Font.FredokaOne
+CLButton.Text = "Client Sided Executor"
+CLButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+CLButton.TextSize = 14.000
+CLButton.TextWrapped = true
+
+UICorner_3.Parent = CLButton
+
+HomePage.Name = "HomePage"
+HomePage.Parent = Tabs
+HomePage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HomePage.BackgroundTransparency = 1.000
+HomePage.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HomePage.BorderSizePixel = 0
+HomePage.Position = UDim2.new(0.213867992, 0, 0.203704059, 0)
+HomePage.Size = UDim2.new(0, 258, 0, 171)
+HomePage.Visible = false
+
+HomePage_2.Name = "HomePage"
+HomePage_2.Parent = HomePage
+HomePage_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HomePage_2.BackgroundTransparency = 1.000
+HomePage_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HomePage_2.BorderSizePixel = 0
+HomePage_2.Position = UDim2.new(-0.272505879, 0, -0.549707592, 0)
+HomePage_2.Size = UDim2.new(0, 337, 0, 337)
+HomePage_2.Image = "rbxassetid://16526420258"
+
+Information.Name = "Information"
+Information.Parent = HomePage
+Information.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Information.BackgroundTransparency = 1.000
+Information.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Information.BorderSizePixel = 0
+Information.Position = UDim2.new(0.151162788, 0, 0.0409356728, 0)
+Information.Size = UDim2.new(0, 55, 0, 55)
+
+InfoButton.Name = "InfoButton"
+InfoButton.Parent = Information
+InfoButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfoButton.BackgroundTransparency = 1.000
+InfoButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfoButton.BorderSizePixel = 0
+InfoButton.Size = UDim2.new(0, 57, 0, 55)
+InfoButton.Image = "rbxassetid://16530204501"
+
+infoFrame.Name = "infoFrame"
+infoFrame.Parent = Information
+infoFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+infoFrame.BackgroundTransparency = 1.000
+infoFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+infoFrame.BorderSizePixel = 0
+infoFrame.Position = UDim2.new(-0.78181982, 0, -0.135922238, 0)
+infoFrame.Size = UDim2.new(0, 252, 0, 169)
+infoFrame.Visible = false
+
+ImageLabel.Parent = infoFrame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(-0.166666672, 0, -0.538461566, 0)
+ImageLabel.Size = UDim2.new(0, 336, 0, 336)
+ImageLabel.Image = "rbxassetid://16530233519"
+
+InfoCButton.Name = "InfoCButton"
+InfoCButton.Parent = infoFrame
+InfoCButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfoCButton.BackgroundTransparency = 1.000
+InfoCButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfoCButton.BorderSizePixel = 0
+InfoCButton.Position = UDim2.new(0.793650806, 0, 0, 0)
+InfoCButton.Size = UDim2.new(0, 31, 0, 31)
+InfoCButton.Image = "rbxassetid://16514236998"
+
+ScriptHubPage.Name = "ScriptHubPage"
+ScriptHubPage.Parent = Tabs
+ScriptHubPage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptHubPage.BackgroundTransparency = 1.000
+ScriptHubPage.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScriptHubPage.BorderSizePixel = 0
+ScriptHubPage.Position = UDim2.new(0.184628218, 0, 0.199448735, 0)
+ScriptHubPage.Size = UDim2.new(0, 258, 0, 171)
+ScriptHubPage.Visible = false
+
+ScrollingFrame.Parent = ScriptHubPage
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(45, 48, 43)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(255, 255, 5)
+ScrollingFrame.Position = UDim2.new(-1.18285186e-07, 0, 2.67698056e-07, 0)
+ScrollingFrame.Size = UDim2.new(0, 260, 0, 169)
+ScrollingFrame.ZIndex = 2
+ScrollingFrame.ScrollBarThickness = 0
+
+flingtool.Name = "flingtool"
+flingtool.Parent = ScrollingFrame
+flingtool.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+flingtool.BorderColor3 = Color3.fromRGB(0, 0, 0)
+flingtool.BorderSizePixel = 0
+flingtool.Position = UDim2.new(0.0250000004, 0, 0.0199999996, 0)
+flingtool.Size = UDim2.new(0, 247, 0, 39)
+flingtool.Font = Enum.Font.GothamBold
+flingtool.Text = "Fling tool"
+flingtool.TextColor3 = Color3.fromRGB(0, 0, 0)
+flingtool.TextSize = 14.000
+
+UICorner_4.Parent = flingtool
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(211, 211, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(211, 211, 0))}
+UIGradient.Parent = flingtool
+
+bloxfruits1.Name = "bloxfruits1"
+bloxfruits1.Parent = ScrollingFrame
+bloxfruits1.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+bloxfruits1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+bloxfruits1.BorderSizePixel = 0
+bloxfruits1.Position = UDim2.new(0.0250000004, 0, 0.150000006, 0)
+bloxfruits1.Size = UDim2.new(0, 247, 0, 39)
+bloxfruits1.Font = Enum.Font.GothamBold
+bloxfruits1.Text = "blox fruits script "
+bloxfruits1.TextColor3 = Color3.fromRGB(0, 0, 0)
+bloxfruits1.TextSize = 14.000
+
+UICorner_5.Parent = bloxfruits1
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(211, 211, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(211, 211, 0))}
+UIGradient_2.Parent = bloxfruits1
+
+Zekrom.Name = "Zekrom"
+Zekrom.Parent = ScrollingFrame
+Zekrom.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+Zekrom.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Zekrom.BorderSizePixel = 0
+Zekrom.Position = UDim2.new(0.0250000004, 0, 0.280000001, 0)
+Zekrom.Size = UDim2.new(0, 247, 0, 39)
+Zekrom.Font = Enum.Font.GothamBold
+Zekrom.Text = "Zekrom (Blox Fruits)"
+Zekrom.TextColor3 = Color3.fromRGB(0, 0, 0)
+Zekrom.TextSize = 14.000
+
+UICorner_6.Parent = Zekrom
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(211, 211, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(211, 211, 0))}
+UIGradient_3.Parent = Zekrom
+
+redz.Name = "redz"
+redz.Parent = ScrollingFrame
+redz.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+redz.BorderColor3 = Color3.fromRGB(0, 0, 0)
+redz.BorderSizePixel = 0
+redz.Position = UDim2.new(0.0250000004, 0, 0.409999996, 0)
+redz.Size = UDim2.new(0, 247, 0, 39)
+redz.Font = Enum.Font.GothamBold
+redz.Text = "redz hub (blox fruits)"
+redz.TextColor3 = Color3.fromRGB(0, 0, 0)
+redz.TextSize = 14.000
+
+UICorner_7.Parent = redz
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(211, 211, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(211, 211, 0))}
+UIGradient_4.Parent = redz
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = ScrollingFrame
+Arsenal.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+Arsenal.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Arsenal.BorderSizePixel = 0
+Arsenal.Position = UDim2.new(0.0250000004, 0, 0.540000021, 0)
+Arsenal.Size = UDim2.new(0, 247, 0, 39)
+Arsenal.Font = Enum.Font.GothamBold
+Arsenal.Text = "Arsenal Script"
+Arsenal.TextColor3 = Color3.fromRGB(0, 0, 0)
+Arsenal.TextSize = 14.000
+
+UICorner_8.Parent = Arsenal
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(211, 211, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(211, 211, 0))}
+UIGradient_5.Parent = Arsenal
+
+Evade.Name = "Evade"
+Evade.Parent = ScrollingFrame
+Evade.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+Evade.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Evade.BorderSizePixel = 0
+Evade.Position = UDim2.new(0.0250000004, 0, 0.670000017, 0)
+Evade.Size = UDim2.new(0, 247, 0, 39)
+Evade.Font = Enum.Font.GothamBold
+Evade.Text = "Evade Script"
+Evade.TextColor3 = Color3.fromRGB(0, 0, 0)
+Evade.TextSize = 14.000
+
+UICorner_9.Parent = Evade
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(211, 211, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(211, 211, 0))}
+UIGradient_6.Parent = Evade
+
+MoonUi.Name = "MoonUi"
+MoonUi.Parent = ScrollingFrame
+MoonUi.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+MoonUi.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MoonUi.BorderSizePixel = 0
+MoonUi.Position = UDim2.new(0.0250000004, 0, 0.800000012, 0)
+MoonUi.Size = UDim2.new(0, 247, 0, 39)
+MoonUi.Font = Enum.Font.GothamBold
+MoonUi.Text = "MoonUI (Universal Script hub)"
+MoonUi.TextColor3 = Color3.fromRGB(0, 0, 0)
+MoonUi.TextSize = 14.000
+
+UICorner_10.Parent = MoonUi
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(211, 211, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(211, 211, 0))}
+UIGradient_7.Parent = MoonUi
+
+TextLabel.Parent = ScrollingFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 255, 217)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0250000004, 0, 0.930000007, 0)
+TextLabel.Size = UDim2.new(0, 247, 0, 30)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "More scripts coming soon."
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+UICorner_11.Parent = TextLabel
+
+ScriptSearcherPage.Name = "ScriptSearcherPage"
+ScriptSearcherPage.Parent = Tabs
+ScriptSearcherPage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptSearcherPage.BackgroundTransparency = 1.000
+ScriptSearcherPage.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScriptSearcherPage.BorderSizePixel = 0
+ScriptSearcherPage.Position = UDim2.new(0.187552199, 0, 0.199448735, 0)
+ScriptSearcherPage.Size = UDim2.new(0, 258, 0, 171)
+ScriptSearcherPage.Visible = false
+
+Frame.Parent = ScriptSearcherPage
+Frame.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+Frame.BorderColor3 = Color3.fromRGB(255, 200, 0)
+Frame.Position = UDim2.new(-3.54855558e-07, 0, 2.67698056e-07, 0)
+Frame.Size = UDim2.new(0, 258, 0, 170)
+
+Fly.Name = "Fly"
+Fly.Parent = Frame
+Fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fly.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fly.BorderSizePixel = 0
+Fly.Position = UDim2.new(0.0271317828, 0, 0.0411764719, 0)
+Fly.Size = UDim2.new(0, 75, 0, 35)
+Fly.Font = Enum.Font.ArialBold
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fly.TextSize = 17.000
+
+UICorner_12.Parent = Fly
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 238, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 238, 0))}
+UIGradient_8.Parent = Fly
+
+Shiftlock.Name = "Shiftlock"
+Shiftlock.Parent = Frame
+Shiftlock.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Shiftlock.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Shiftlock.BorderSizePixel = 0
+Shiftlock.Position = UDim2.new(0.0271317828, 0, 0.294117659, 0)
+Shiftlock.Size = UDim2.new(0, 75, 0, 35)
+Shiftlock.Font = Enum.Font.ArialBold
+Shiftlock.Text = "Shiftlock"
+Shiftlock.TextColor3 = Color3.fromRGB(0, 0, 0)
+Shiftlock.TextSize = 12.000
+
+UICorner_13.Parent = Shiftlock
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 238, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 238, 0))}
+UIGradient_9.Parent = Shiftlock
+
+Keyboard.Name = "Keyboard"
+Keyboard.Parent = Frame
+Keyboard.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Keyboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Keyboard.BorderSizePixel = 0
+Keyboard.Position = UDim2.new(0.0271317828, 0, 0.535294116, 0)
+Keyboard.Size = UDim2.new(0, 75, 0, 35)
+Keyboard.Font = Enum.Font.ArialBold
+Keyboard.Text = "Keyboard"
+Keyboard.TextColor3 = Color3.fromRGB(0, 0, 0)
+Keyboard.TextSize = 12.000
+
+UICorner_14.Parent = Keyboard
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 238, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 238, 0))}
+UIGradient_10.Parent = Keyboard
+
+Dex.Name = "Dex"
+Dex.Parent = Frame
+Dex.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dex.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Dex.BorderSizePixel = 0
+Dex.Position = UDim2.new(0.0271317828, 0, 0.776470602, 0)
+Dex.Size = UDim2.new(0, 75, 0, 35)
+Dex.Font = Enum.Font.ArialBold
+Dex.Text = "Dex Ex"
+Dex.TextColor3 = Color3.fromRGB(0, 0, 0)
+Dex.TextSize = 12.000
+
+UICorner_15.Parent = Dex
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 238, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 238, 0))}
+UIGradient_11.Parent = Dex
+
+InfiniteYield.Name = "InfiniteYield"
+InfiniteYield.Parent = Frame
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.BorderSizePixel = 0
+InfiniteYield.Position = UDim2.new(0.379844964, 0, 0.0411764719, 0)
+InfiniteYield.Size = UDim2.new(0, 75, 0, 35)
+InfiniteYield.Font = Enum.Font.ArialBold
+InfiniteYield.Text = "Inf Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.TextSize = 12.000
+
+UICorner_16.Parent = InfiniteYield
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 238, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 238, 0))}
+UIGradient_12.Parent = InfiniteYield
+
+Btools.Name = "Btools"
+Btools.Parent = Frame
+Btools.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Btools.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Btools.BorderSizePixel = 0
+Btools.Position = UDim2.new(0.379844964, 0, 0.294117659, 0)
+Btools.Size = UDim2.new(0, 75, 0, 35)
+Btools.Font = Enum.Font.ArialBold
+Btools.Text = "BTools"
+Btools.TextColor3 = Color3.fromRGB(0, 0, 0)
+Btools.TextSize = 12.000
+
+UICorner_17.Parent = Btools
+
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 238, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 238, 0))}
+UIGradient_13.Parent = Btools
+
+ESP.Name = "ESP"
+ESP.Parent = Frame
+ESP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ESP.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ESP.BorderSizePixel = 0
+ESP.Position = UDim2.new(0.379844964, 0, 0.535294116, 0)
+ESP.Size = UDim2.new(0, 75, 0, 35)
+ESP.Font = Enum.Font.ArialBold
+ESP.Text = "ESP"
+ESP.TextColor3 = Color3.fromRGB(0, 0, 0)
+ESP.TextSize = 12.000
+
+UICorner_18.Parent = ESP
+
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 238, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 238, 0))}
+UIGradient_14.Parent = ESP
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = Frame
+Aimbot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Aimbot.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot.BorderSizePixel = 0
+Aimbot.Position = UDim2.new(0.379844964, 0, 0.776470602, 0)
+Aimbot.Size = UDim2.new(0, 75, 0, 35)
+Aimbot.Font = Enum.Font.ArialBold
+Aimbot.Text = "Aimbot"
+Aimbot.TextColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot.TextSize = 12.000
+
+UICorner_19.Parent = Aimbot
+
+UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 238, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 238, 0))}
+UIGradient_15.Parent = Aimbot
+
+omegazButton.Name = "omegazButton"
+omegazButton.Parent = Frame
+omegazButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+omegazButton.BackgroundTransparency = 1.000
+omegazButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+omegazButton.BorderSizePixel = 0
+omegazButton.Position = UDim2.new(0.686046541, 0, 0.288235307, 0)
+omegazButton.Size = UDim2.new(0, 81, 0, 81)
+omegazButton.Image = "rbxassetid://16454593137"
+
+secretFrame.Name = "secretFrame"
+secretFrame.Parent = ScriptSearcherPage
+secretFrame.BackgroundColor3 = Color3.fromRGB(124, 110, 0)
+secretFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+secretFrame.BorderSizePixel = 0
+secretFrame.Position = UDim2.new(0, 0, -0.00279828231, 0)
+secretFrame.Size = UDim2.new(0, 258, 0, 170)
+secretFrame.Visible = false
+
+UICorner_20.Parent = secretFrame
+
+TextLabel_2.Parent = secretFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.112403102, 0, 0.117647059, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.Gotham
+TextLabel_2.Text = "https://discord.gg/xHV5hN3zM3"
+TextLabel_2.TextColor3 = Color3.fromRGB(17, 0, 255)
+TextLabel_2.TextSize = 14.000
+
+TextLabel_3.Parent = secretFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.112403102, 0, 0.352941185, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.Font = Enum.Font.Gotham
+TextLabel_3.Text = "https://www.youtube.com/@EclipseXOfficialYT"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_3.TextSize = 11.000
+
+TextLabel_4.Parent = secretFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.112403102, 0, 0.647058845, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_4.Font = Enum.Font.Gotham
+TextLabel_4.Text = "https://discord.gg/7vsQQWgWme"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 17, 255)
+TextLabel_4.TextSize = 14.000
+
+cButton.Name = "cButton"
+cButton.Parent = secretFrame
+cButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cButton.BackgroundTransparency = 1.000
+cButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+cButton.BorderSizePixel = 0
+cButton.Position = UDim2.new(0.86434108, 0, 0.00588235306, 0)
+cButton.Size = UDim2.new(0, 35, 0, 35)
+cButton.Image = "rbxassetid://16514236998"
+
+AboutUs.Name = "AboutUs"
+AboutUs.Parent = Tabs
+AboutUs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AboutUs.BackgroundTransparency = 1.000
+AboutUs.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AboutUs.BorderSizePixel = 0
+AboutUs.Position = UDim2.new(0.044968456, 0, 0.762503266, 0)
+AboutUs.Size = UDim2.new(0, 38, 0, 38)
+AboutUs.Image = "rbxassetid://16466867271"
+
+Executor.Name = "Executor"
+Executor.Parent = Tabs
+Executor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Executor.BackgroundTransparency = 1.000
+Executor.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Executor.BorderSizePixel = 0
+Executor.Position = UDim2.new(0.0365231149, 0, 0.631665051, 0)
+Executor.Size = UDim2.new(0, 42, 0, 42)
+Executor.Image = "rbxassetid://16466863464"
+
+Home.Name = "Home"
+Home.Parent = Tabs
+Home.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Home.BackgroundTransparency = 1.000
+Home.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Home.BorderSizePixel = 0
+Home.Position = UDim2.new(0.0365231149, 0, 0.201679766, 0)
+Home.Size = UDim2.new(0, 42, 0, 42)
+Home.Image = "rbxassetid://16466788149"
+
+ScriptHub.Name = "ScriptHub"
+ScriptHub.Parent = Tabs
+ScriptHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptHub.BackgroundTransparency = 1.000
+ScriptHub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScriptHub.BorderSizePixel = 0
+ScriptHub.Position = UDim2.new(0.0394470915, 0, 0.49657163, 0)
+ScriptHub.Size = UDim2.new(0, 40, 0, 40)
+ScriptHub.Image = "rbxassetid://16466856820"
+
+ScriptSearcher.Name = "ScriptSearcher"
+ScriptSearcher.Parent = Tabs
+ScriptSearcher.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScriptSearcher.BackgroundTransparency = 1.000
+ScriptSearcher.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScriptSearcher.BorderSizePixel = 0
+ScriptSearcher.Position = UDim2.new(0.0365231149, 0, 0.347101361, 0)
+ScriptSearcher.Size = UDim2.new(0, 42, 0, 42)
+ScriptSearcher.Image = "rbxassetid://16466851828"
+
+UI.Name = "UI"
+UI.Parent = Tabs
+UI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UI.BackgroundTransparency = 1.000
+UI.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UI.BorderSizePixel = 0
+UI.Position = UDim2.new(-0.0500000007, 0, -0.284000009, 0)
+UI.Size = UDim2.new(0, 384, 0, 384)
+UI.ZIndex = 0
+UI.Image = "rbxassetid://16493582833"
+
+CloseButton_3.Name = "CloseButton"
+CloseButton_3.Parent = Tabs
+CloseButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CloseButton_3.BackgroundTransparency = 1.000
+CloseButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CloseButton_3.BorderSizePixel = 0
+CloseButton_3.Position = UDim2.new(0.88011694, 0, 0.0170212761, 0)
+CloseButton_3.Size = UDim2.new(0, 30, 0, 30)
+CloseButton_3.Image = "rbxassetid://16514236998"
+
+OpenButton1.Name = "OpenButton1"
+OpenButton1.Parent = OmegaZ
+OpenButton1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenButton1.BackgroundTransparency = 1.000
+OpenButton1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenButton1.BorderSizePixel = 0
+OpenButton1.Position = UDim2.new(0.429305911, 0, 0.0141700404, 0)
+OpenButton1.Size = UDim2.new(0, 100, 0, 100)
+
+UICorner_21.Parent = OpenButton1
+
+OpenButton.Name = "OpenButton"
+OpenButton.Parent = OpenButton1
+OpenButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenButton.BackgroundTransparency = 1.000
+OpenButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenButton.BorderSizePixel = 0
+OpenButton.Position = UDim2.new(0.150000006, 0, 0.0700000003, 0)
+OpenButton.Size = UDim2.new(0, 70, 0, 70)
+OpenButton.Image = "rbxassetid://16454593137"
+
+intro.Name = "intro"
+intro.Parent = OpenButton1
+intro.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+intro.BackgroundTransparency = 1.000
+intro.BorderColor3 = Color3.fromRGB(0, 0, 0)
+intro.BorderSizePixel = 0
+intro.Position = UDim2.new(-1.55000031, 0, 0.379999995, 0)
+intro.Size = UDim2.new(0, 409, 0, 95)
+intro.Font = Enum.Font.ArialBold
+intro.Text = "Click Me."
+intro.TextColor3 = Color3.fromRGB(255, 255, 255)
+intro.TextSize = 14.000
+
+-- Scripts:
+
+local function IWFR_fake_script() -- ExecuteButton.LocalScript 
+	local script = Instance.new('LocalScript', ExecuteButton)
+
+	local execButton = script.Parent.Parent["ExecuteButton"]
+	
+	execButton.MouseButton1Click:Connect(function()
+		local code = script.Parent.Parent.TextBox.Text  -- Access textbox text
+	end)
+	
+end
+coroutine.wrap(IWFR_fake_script)()
+local function FZQOAN_fake_script() -- CloseButton.LocalScript 
+	local script = Instance.new('LocalScript', CloseButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.SDExec.Visible = false
+		script.Parent.Parent.Parent.CLExec.Visible = false
+		script.Parent.Parent.Parent.ButtonsExec.Visible = true
+	end)
+end
+coroutine.wrap(FZQOAN_fake_script)()
+local function XDMVWFB_fake_script() -- ExecuteButton_2.LocalScript 
+	local script = Instance.new('LocalScript', ExecuteButton_2)
+
+	local txtbox = script.Parent.Parent["TextBox"]
+	local btn = script.Parent
+	
+	btn.MouseButton1Click:Connect(function()
+		-- Doesn't works on PC Debugging
+		local executecode = executecode and clonefunction(executecode) or function(v)
+			task.spawn(loadstring(v));
+			executecode(txtbox.Text)
+		end
+	end)
+	
+end
+coroutine.wrap(XDMVWFB_fake_script)()
+local function JGSJZ_fake_script() -- ExecuteButton_2.LocalScript 
+	local script = Instance.new('LocalScript', ExecuteButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.ExecuteEvent:FireServer(script.Parent.Parent.TextBox.Text)
+	end)
+	
+end
+coroutine.wrap(JGSJZ_fake_script)()
+local function LOREZN_fake_script() -- CloseButton_2.LocalScript 
+	local script = Instance.new('LocalScript', CloseButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.SDExec.Visible = false
+		script.Parent.Parent.Parent.CLExec.Visible = false
+		script.Parent.Parent.Parent.ButtonsExec.Visible = true
+	end)
+end
+coroutine.wrap(LOREZN_fake_script)()
+local function IOWSHJH_fake_script() -- SDButton.LocalScript 
+	local script = Instance.new('LocalScript', SDButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.SDExec.Visible = true
+		script.Parent.Parent.Parent.CLExec.Visible = false
+		script.Parent.Parent.Parent.ButtonsExec.Visible = false
+	end)
+end
+coroutine.wrap(IOWSHJH_fake_script)()
+local function NLIXQWG_fake_script() -- CLButton.LocalScript 
+	local script = Instance.new('LocalScript', CLButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.SDExec.Visible = false
+		script.Parent.Parent.Parent.CLExec.Visible = true
+		script.Parent.Parent.Parent.ButtonsExec.Visible = false
+	end)
+end
+coroutine.wrap(NLIXQWG_fake_script)()
+local function DEUJXVS_fake_script() -- InfoButton.LocalScript 
+	local script = Instance.new('LocalScript', InfoButton)
+
+	local infoFrame = script.Parent.Parent["infoFrame"]
+	local infoButton = script.Parent.Parent["InfoButton"]
+	
+	infoButton.MouseButton1Click:Connect(function()
+		infoButton.Visible = false
+		infoFrame.Visible = true
+	end)
+	
+end
+coroutine.wrap(DEUJXVS_fake_script)()
+local function HXWPRG_fake_script() -- InfoCButton.LocalScript 
+	local script = Instance.new('LocalScript', InfoCButton)
+
+	local infoFrame = script.Parent.Parent.Parent["infoFrame"]
+	local infoButton = script.Parent.Parent.Parent["InfoButton"]
+	local infoCButton = script.Parent.Parent["InfoCButton"] 
+	
+	infoCButton.MouseButton1Click:Connect(function()
+		infoFrame.Visible = false
+		infoButton.Visible = true
+	end)
+	
+end
+coroutine.wrap(HXWPRG_fake_script)()
+local function HTYTQ_fake_script() -- flingtool.LocalScript 
+	local script = Instance.new('LocalScript', flingtool)
+
+	local fbutton = script.Parent.Parent["flingtool"]
+	
+	fbutton.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Fling-Tool-10417"))() 
+	end)
+end
+coroutine.wrap(HTYTQ_fake_script)()
+local function WSJY_fake_script() -- bloxfruits1.LocalScript 
+	local script = Instance.new('LocalScript', bloxfruits1)
+
+	local fbutton = script.Parent.Parent["bloxfruits1"]
+	
+	fbutton.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1st-Mars/Annie/main/1st.lua'))()
+	end)
+end
+coroutine.wrap(WSJY_fake_script)()
+local function QRQQQBF_fake_script() -- Zekrom.LocalScript 
+	local script = Instance.new('LocalScript', Zekrom)
+
+	local fbutton = script.Parent.Parent["Zekrom"]
+	
+	fbutton.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Zekrom-Hub-X/main/Zekrom-Hub-X-exe"))()
+	end)
+end
+coroutine.wrap(QRQQQBF_fake_script)()
+local function ACVINQ_fake_script() -- redz.LocalScript 
+	local script = Instance.new('LocalScript', redz)
+
+	local fbutton = script.Parent.Parent["redz"]
+	
+	fbutton.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+	end)
+end
+coroutine.wrap(ACVINQ_fake_script)()
+local function LRDS_fake_script() -- Arsenal.LocalScript 
+	local script = Instance.new('LocalScript', Arsenal)
+
+	local fbutton = script.Parent.Parent["Arsenal"]
+	
+	fbutton.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/Loadstring/main/arsenal4.lua"))()
+	end)
+end
+coroutine.wrap(LRDS_fake_script)()
+local function AEXJGN_fake_script() -- Evade.LocalScript 
+	local script = Instance.new('LocalScript', Evade)
+
+	local fbutton = script.Parent.Parent["Evade"]
+	
+	fbutton.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubEvade"))()
+	end)
+end
+coroutine.wrap(AEXJGN_fake_script)()
+local function NGWG_fake_script() -- MoonUi.LocalScript 
+	local script = Instance.new('LocalScript', MoonUi)
+
+	local fbutton = script.Parent.Parent["MoonUi"]
+	
+	fbutton.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/IlikeyocutgHAH12/MoonUI-v10-/main/MoonUI%20v10'))()
+	end)
+end
+coroutine.wrap(NGWG_fake_script)()
+local function MSBRF_fake_script() -- Fly.LocalScript 
+	local script = Instance.new('LocalScript', Fly)
+
+	local button = script.Parent.Parent["Fly"]
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
+	end)
+end
+coroutine.wrap(MSBRF_fake_script)()
+local function AEIEYM_fake_script() -- Shiftlock.LocalScript 
+	local script = Instance.new('LocalScript', Shiftlock)
+
+	local button = script.Parent.Parent["Shiftlock"]
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://scriptblox.com/raw/Baseplate-Universal-Script-Permanent-Shift-Lock-6924"))()
+	end)
+end
+coroutine.wrap(AEIEYM_fake_script)()
+local function JDTCH_fake_script() -- Keyboard.LocalScript 
+	local script = Instance.new('LocalScript', Keyboard)
+
+	local button = script.Parent.Parent["Keyboard"]
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+	end)
+end
+coroutine.wrap(JDTCH_fake_script)()
+local function AFVIJPT_fake_script() -- Dex.LocalScript 
+	local script = Instance.new('LocalScript', Dex)
+
+	local button = script.Parent.Parent["Dex"]
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://github.com/Hosvile/DEX-Explorer/releases/latest/download/main.lua", true))()
+	end)
+end
+coroutine.wrap(AFVIJPT_fake_script)()
+local function BVRWUFR_fake_script() -- InfiniteYield.LocalScript 
+	local script = Instance.new('LocalScript', InfiniteYield)
+
+	local button = script.Parent.Parent["InfiniteYield"]
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(BVRWUFR_fake_script)()
+local function NNYKQRN_fake_script() -- Btools.LocalScript 
+	local script = Instance.new('LocalScript', Btools)
+
+	local button = script.Parent.Parent["Btools"]
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
+	end)
+end
+coroutine.wrap(NNYKQRN_fake_script)()
+local function FBZLHJ_fake_script() -- ESP.LocalScript 
+	local script = Instance.new('LocalScript', ESP)
+
+	local button = script.Parent.Parent["ESP"]
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+	end)
+end
+coroutine.wrap(FBZLHJ_fake_script)()
+local function SZYA_fake_script() -- Aimbot.LocalScript 
+	local script = Instance.new('LocalScript', Aimbot)
+
+	local button = script.Parent.Parent["Aimbot"]
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+	end)
+end
+coroutine.wrap(SZYA_fake_script)()
+local function KVIGA_fake_script() -- omegazButton.LocalScript 
+	local script = Instance.new('LocalScript', omegazButton)
+
+	local sFrame = script.Parent.Parent.Parent["secretFrame"]
+	local Frame = script.Parent.Parent.Parent["Frame"]
+	local Obutton = script.Parent.Parent["omegazButton"]
+	
+	Obutton.MouseButton1Click:Connect(function()
+		sFrame.Visible = true
+		Frame.Visible = false
+	end)
+	
+	
+	
+end
+coroutine.wrap(KVIGA_fake_script)()
+local function JEPBFF_fake_script() -- cButton.LocalScript 
+	local script = Instance.new('LocalScript', cButton)
+
+	local sFrame = script.Parent.Parent.Parent["secretFrame"]
+	local Frame = script.Parent.Parent.Parent["Frame"]
+	local cButton = script.Parent.Parent["cButton"]
+	
+	cButton.MouseButton1Click:Connect(function()
+		sFrame.Visible = false
+		Frame.Visible = true
+	end)
+	
+	
+end
+coroutine.wrap(JEPBFF_fake_script)()
+local function XREEQUR_fake_script() -- AboutUs.LocalScript 
+	local script = Instance.new('LocalScript', AboutUs)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.HomePage.Visible = false
+		script.Parent.Parent.ScriptSearcherPage.Visible = false
+		script.Parent.Parent.ScriptHubPage.Visible = false
+		script.Parent.Parent.ExecutorPage.Visible = false
+		script.Parent.Parent.AboutUsPage.Visible = true
+		wait(0.1)
+	end)
+	
+end
+coroutine.wrap(XREEQUR_fake_script)()
+local function UYWPAO_fake_script() -- Executor.LocalScript 
+	local script = Instance.new('LocalScript', Executor)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.HomePage.Visible = false
+		script.Parent.Parent.ScriptSearcherPage.Visible = false
+		script.Parent.Parent.ScriptHubPage.Visible = false
+		script.Parent.Parent.ExecutorPage.Visible = true
+		script.Parent.Parent.AboutUsPage.Visible = false
+		wait(0.1)
+	end)
+	
+end
+coroutine.wrap(UYWPAO_fake_script)()
+local function FQJOFE_fake_script() -- Home.LocalScript 
+	local script = Instance.new('LocalScript', Home)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.HomePage.Visible = true
+		script.Parent.Parent.ScriptSearcherPage.Visible = false
+		script.Parent.Parent.ScriptHubPage.Visible = false
+		script.Parent.Parent.ExecutorPage.Visible = false
+		script.Parent.Parent.AboutUsPage.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(FQJOFE_fake_script)()
+local function RLCIQMW_fake_script() -- ScriptHub.LocalScript 
+	local script = Instance.new('LocalScript', ScriptHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.HomePage.Visible = false
+		script.Parent.Parent.ScriptSearcherPage.Visible = false
+		script.Parent.Parent.ScriptHubPage.Visible = true
+		script.Parent.Parent.ExecutorPage.Visible = false
+		script.Parent.Parent.AboutUsPage.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(RLCIQMW_fake_script)()
+local function ELLKOZ_fake_script() -- ScriptSearcher.LocalScript 
+	local script = Instance.new('LocalScript', ScriptSearcher)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.HomePage.Visible = false
+		script.Parent.Parent.ScriptSearcherPage.Visible = true
+		script.Parent.Parent.ScriptHubPage.Visible = false
+		script.Parent.Parent.ExecutorPage.Visible = false
+		script.Parent.Parent.AboutUsPage.Visible = false
+		wait(0.1)
+	end)
+end
+coroutine.wrap(ELLKOZ_fake_script)()
+local function IKUT_fake_script() -- CloseButton_3.LocalScript 
+	local script = Instance.new('LocalScript', CloseButton_3)
+
+	local closebutton = script.Parent.Parent["CloseButton"]
+	local opengui = script.Parent.Parent.Parent["OpenButton1"]
+	local OmegaZ = script.Parent.Parent.Parent["Tabs"]
+	
+	closebutton.MouseButton1Click:Connect(function()
+		OmegaZ.Visible = false
+		opengui.Visible = true
+	end)
+	
+end
+coroutine.wrap(IKUT_fake_script)()
+local function EEYM_fake_script() -- Tabs.DragScript 
+	local script = Instance.new('LocalScript', Tabs)
+
+	local GUI = script.Parent.Parent["Tabs"]
+	
+	GUI.Draggable = true
+	
+end
+coroutine.wrap(EEYM_fake_script)()
+local function TIKRYVG_fake_script() -- OpenButton1.DragScript 
+	local script = Instance.new('LocalScript', OpenButton1)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.30
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(TIKRYVG_fake_script)()
+local function CAXBITH_fake_script() -- OpenButton.DragScript 
+	local script = Instance.new('LocalScript', OpenButton)
+
+	local openbutton = script.Parent.Parent["OpenButton"]
+	local opengui = script.Parent.Parent.Parent["OpenButton1"]
+	local OmegaZ = script.Parent.Parent.Parent["Tabs"]
+	local intro = script.Parent.Parent["intro"]
+	
+	openbutton.MouseButton1Click:Connect(function()
+		OmegaZ.Visible = true
+		opengui.Visible = false
+		intro.Visible = false
+	end)
+	
+end
+coroutine.wrap(CAXBITH_fake_script)()
